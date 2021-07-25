@@ -31,6 +31,7 @@ public class IBSAdsController : MonoBehaviour
     private void CalculateProbabilityOfShowing()
     {
         var probability = Random.value;
+        
         if (probability <= probabilityOfShowing)
         {
             ShowAd();
