@@ -33,7 +33,7 @@ public class AdAnimator : MonoBehaviour
     }
 
     public void RedirectToURL() {
-        GameObject.FindObjectOfType<IBSAdController>().OpenURL();
+        GameObject.FindObjectOfType<IBSAdsController>().OpenURL();
     }
 
     public void DisableAnimatorTriggers()

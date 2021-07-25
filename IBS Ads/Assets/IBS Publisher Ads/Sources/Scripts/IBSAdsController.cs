@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(AdPresenter))]
-public class IBSAdController : MonoBehaviour
+public class IBSAdsController : MonoBehaviour
 {
     [Header("URLs used for each plataform: ")]
     public string androidURL = "https://play.google.com/store/apps/developer?id=Indie+Bonus+Stage";

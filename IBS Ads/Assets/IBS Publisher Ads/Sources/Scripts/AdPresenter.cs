@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(IBSAdController))]
+[RequireComponent(typeof(IBSAdsController))]
 public class AdPresenter : MonoBehaviour
 {
     public GameObject adContentPrefab;

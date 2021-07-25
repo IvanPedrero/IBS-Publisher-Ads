@@ -286,7 +286,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1555561899}
+      - m_Target: {fileID: 1555561898}
         m_MethodName: ShowAd
         m_Mode: 1
         m_Arguments:
@@ -509,30 +509,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1555561900}
-  - component: {fileID: 1555561899}
   - component: {fileID: 1555561898}
+  - component: {fileID: 1555561899}
   m_Layer: 0
-  m_Name: IBS Ad Controller
+  m_Name: IBS Ads Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &1555561898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1555561897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b22ae08b9f4f50c4ab299ebf77ff94cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  adContentPrefab: {fileID: 2747483560452058670, guid: 005b9d4837d0f254fbd86e6e8e057562,
-    type: 3}
---- !u!114 &1555561899
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -549,6 +535,20 @@ MonoBehaviour:
   defaultURL: http://indiebonusstage.com/juegos-publicados
   showRandomly: 0
   probabilityOfShowing: 0.3
+--- !u!114 &1555561899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555561897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b22ae08b9f4f50c4ab299ebf77ff94cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  adContentPrefab: {fileID: 2747483560452058670, guid: 005b9d4837d0f254fbd86e6e8e057562,
+    type: 3}
 --- !u!4 &1555561900
 Transform:
   m_ObjectHideFlags: 0
