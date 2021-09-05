@@ -534,7 +534,7 @@ MonoBehaviour:
   iosURL: https://apps.apple.com/co/developer/marco-ricardo-sanchez-guadarrama/id865207642
   defaultURL: http://indiebonusstage.com/juegos-publicados
   showRandomly: 0
-  probabilityOfShowing: 0.3
+  probabilityOfShowing: 0.5
 --- !u!114 &1555561899
 MonoBehaviour:
   m_ObjectHideFlags: 0
